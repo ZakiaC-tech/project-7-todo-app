@@ -1,17 +1,36 @@
 # Simple Todo App
 
-Give a brief description of the project here. Feel free to give it a different name.
+The Simple Todo App is a web application that allows users to create, manage, and track their daily tasks. Users can add new to-do items, mark them as completed, and delete them as needed, all through a clean and intuitive interface.
 
 ## Functionality
 
-Give a more detailed explanation of the project and its functionality.
+The application renders an initial list of to-do items using JavaScript. Users can:
+
+- Open and close a modal form to add new to-do items
+- Create a new to-do by submitting the form or pressing Enter
+- Assign an optional due date to each to-do
+- Mark to-do items as completed or uncompleted
+- Delete existing to-do items
+- See unique checkbox/label associations generated for each item
+
+Form validation ensures that required fields are filled out correctly before submission, improving usability and preventing errors.
 
 ## Technology
 
-Give a description of the technologies and techniques used. Pictures, GIFs, or screenshots that detail the project features are recommended.
+This project was built using:
+
+- **HTML5** for semantic structure
+- **CSS (BEM methodology)** for styling and layout
+- **JavaScript (ES6)** with classes and modules
+- **Object-Oriented Programming (OOP)** principles
+- **UUID (via CDN)** for generating unique IDs for to-do items
+- **Git & GitHub** for version control
+- **GitHub Pages** for deployment
+
+The project follows best practices for code organization, accessibility, and maintainability.
 
 ## Deployment
 
 This project is deployed on GitHub Pages:
 
-- ADD LINK HERE
+👉 https://zakiac-tech.github.io/project-7-todo-app/
