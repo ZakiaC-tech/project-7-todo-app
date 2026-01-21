@@ -34,10 +34,12 @@ const closeModal = (modal) => {
 
 // ===== COUNTER =====
 const updateCounter = () => {
-  const todos = Array.from(todosList.children);
-  const completedCount = todos.filter(
-    (todo) => todo.querySelector(".todo__completed").checked
-  ).length;
+  const todos = Array.from(todosList.querySelectorAll(".todo"));
+
+  const completedCount = todos.filter((todo) => {
+    const checkbox = todo.querySelector(".todo__completed");
+    return checkbox && checkbox.checked;
+  }).length;
 
   counterText.textContent = `Showing ${completedCount} out of ${todos.length} completed`;
 };
