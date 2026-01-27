@@ -91,6 +91,7 @@ addTodoForm.addEventListener("submit", (evt) => {
   todosList.append(todo);
 
   updateCounter(); // ✅ updates counter after adding a todo
+  addTodoForm.reset();
   addTodoFormValidator.resetValidation(); // ✅ resets form values, error messages, and button state (satisfies Task 6)
   closeModal(addTodoPopup); // ✅ closes modal
 });
